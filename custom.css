@@ -15,7 +15,7 @@ body{
 }
 
 .navbar{
-    background: #132830;
+    background: #052B35;
 }
 
 .navbar-brand{
@@ -47,7 +47,7 @@ body{
 }
 
 .showcase{
-    background-color: #132830;
+    background-color: #052B35;
 }
 
 .greetings{
@@ -56,7 +56,7 @@ body{
 
 .btn{
     background-color: #ff881e;
-    color: #132830;
+    color: #052B35;
     font-weight: 600;
     font-family: 'M PLUS 1p', sans-serif,;
     font-size: 1rem;
@@ -70,14 +70,19 @@ body{
 }
 
 .card{
-    background-color: #132830;
+    background-color: #052B35;
     color: #ece4b7;
     font-family: 'M PLUS 1p', sans-serif;
     border-color: #ece4b7;
 }
 
 #skills{
-    background-color: #132830;
+    background-color: #052B35;
+}
+
+.card-text2{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 700;
 }
 
 .btn:hover{
@@ -95,30 +100,71 @@ body{
     height: 100%;
 }
 
-.carousel-caption.h5{
-    font-weight: bold;
+.slide-title{
+    font-weight: 600 bold;
+    text-decoration: underline;
 }
 
 .carousel-caption{
-    color: #132830;
-    background-color: #132830;
+    color: #052B35;
+    background-color: #052B35;
     background: rgba(236, 228, 183, .4);
     background-blend-mode: color-burn;
     border-style:dotted;
-    border-color: #132830;
+    border-color: #052B35;
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 900;
     line-height: 1rem;
 
 }
+
+
 .accordion-button.collapsed{
     border-width: 1rem;
-    border-color: #132830;
+    border-color: #ece4b7;
+    
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #ece4b7;
+    color:#052B35;
+    border-color: #052B35;
+    border-width: 1rem;
+    font-size: 1.5rem;
 }
 
 .accordion-button{
-    background-color: #ece4b7;
+    background-color: #052B35;
     border-style: double;
+    color: #ece4b7;
+}
+
+.accordion-body{
+    color: #428ba7;
+    font-family: 'M PLUS 1p', sans-serif;
+    background-color: #fff3b0;
+}
+
+#projects{
+    background-color: #052B35;
+}
+
+#footer{
+    background-color: #fca252;
+}
+
+a{
+    color: #052B35;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #052B35;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #428ba7;
 }
 
 @media(min-width: 768px) {
