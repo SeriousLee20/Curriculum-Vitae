@@ -1,13 +1,124 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap');
 
 body::before {
     display: block;
     content: ' ';
     height: 60px;
+    background-color: #ece4b7;
+}
+
+body{
+    background-color: #ece4b7;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.navbar{
+    background: #132830;
+}
+
+.navbar-brand{
+    color: #fff3b0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.navbar-brand:hover{
+    color: #ff881e;
+}
+
+.navbar-toggler-icon:click{
+    border-color: #ece4b7;
+}
+
+.nav-link{
+    color: #ece4b7;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.nav-link:hover{
+    color: #ff881e;
 }
 
 .display-6 {
     font-size: 1rem;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #ece4b7;
+}
+
+.showcase{
+    background-color: #132830;
+}
+
+.greetings{
+    color: #ff881e;
+}
+
+.btn{
+    background-color: #ff881e;
+    color: #132830;
+    font-weight: 600;
+    font-family: 'M PLUS 1p', sans-serif,;
+    font-size: 1rem;
+    box-shadow: large;
+
+}
+
+.card-title{
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #428ba7;
+}
+
+.card{
+    background-color: #132830;
+    color: #ece4b7;
+    font-family: 'M PLUS 1p', sans-serif;
+    border-color: #ece4b7;
+}
+
+#skills{
+    background-color: #132830;
+}
+
+.btn:hover{
+    background-color: #fca252;
+}
+
+.carousel-inner{
+    width:360;
+    height: 360;
+    margin:auto;
+}
+
+.w-100{
+    width:100%;
+    height: 100%;
+}
+
+.carousel-caption.h5{
+    font-weight: bold;
+}
+
+.carousel-caption{
+    color: #132830;
+    background-color: #132830;
+    background: rgba(236, 228, 183, .4);
+    background-blend-mode: color-burn;
+    border-style:dotted;
+    border-color: #132830;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 900;
+    line-height: 1rem;
+
+}
+.accordion-button.collapsed{
+    border-width: 1rem;
+    border-color: #132830;
+}
+
+.accordion-button{
+    background-color: #ece4b7;
+    border-style: double;
 }
 
 @media(min-width: 768px) {
