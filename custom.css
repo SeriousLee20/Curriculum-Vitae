@@ -14,11 +14,25 @@ body{
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
+a{
+    color: #052B35;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #052B35;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #428ba7;
+}
+
 .navbar{
     background: #052B35;
 }
 
-.navbar-brand{
+.navbar .container-fluid .navbar-brand{
     color: #fff3b0;
     font-family: 'ZCOOL XiaoWei', serif;
 }
@@ -31,7 +45,7 @@ body{
     border-color: #ece4b7;
 }
 
-.nav-link{
+.nav-item .nav-link{
     color: #ece4b7;
     font-family: 'M PLUS 1p', sans-serif;
 }
@@ -157,19 +171,6 @@ body{
     background-color: #fca252;
 }
 
-a{
-    color: #052B35;
-    text-decoration: none;
-}
-
-a:visited{
-    color: #052B35;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #428ba7;
-}
 
 @media(min-width: 768px) {
     .news-input {
